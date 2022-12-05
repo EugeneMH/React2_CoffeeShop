@@ -1,0 +1,161 @@
+.coffeePageBackground {
+    height: 260px;
+    z-index:-1;
+    position:absolute;
+}
+
+.coffeePageTitle {
+    width:100%;
+    text-align:center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    margin: 15px 0;
+}
+
+section {
+    background: #FFFFFF;
+}
+
+.aboutWrapper {
+    margin: 100px 0px 20px 0;
+    display:flex;
+    align-items:center;
+    justify-content: center ;
+    padding: 20px 5px;
+}
+
+.aboutWrapper img {
+    width: 272px;
+}
+
+.aboutWrapper div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:400px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.aboutWrapper div div {
+    color:black;
+}
+
+.aboutWrapper div span {
+    color:black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+hr {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.controls {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color:black;
+    width:66%;
+    margin:60px auto 0 auto;
+}
+
+.controls div {
+    margin:0 20px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+}
+
+.controls input {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 180px;
+    height: 30px;   
+    outline-width: 0;
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.controls button {
+    width: 75px;
+    height: 30px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 0px 0px 4px;
+    margin: 0px 5px;
+}
+
+/* items */
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:inline-block;
+    flex-wrap:wrap;
+    margin-bottom: 200px;
+}
+
+.products a {
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 30px 30px;
+    /* filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25)); */
+    background: rgba(255, 255, 255, 0.65);
+    display:flex;
+    width: 220px;
+    height: 240px;
+    flex-direction:column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.products a img {
+    margin-top:20px;
+    width: 167px;
+    height: 115px;  
+}
+
+.products a span {
+    color: black;
+    margin-top:10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.products a span:nth-child(3) {
+    text-align:right;
+    width:90%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right:22px;
+}
+
+.products a span:nth-child(4) {
+    text-align:right;
+    width:90%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right:22px;
+}

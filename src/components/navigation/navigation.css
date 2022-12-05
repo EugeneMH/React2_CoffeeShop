@@ -1,0 +1,54 @@
+nav {
+    width: 355px;
+    height: 40px;
+    padding:40px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color:white;
+}
+
+.coffeeHouse {
+    display:flex;
+    flex-direction:row;
+    align-items:baseline;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    color:black;
+    height: 150px;
+    padding:10px;
+}
+
+.a1 {
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:baseline;
+    margin:20px auto;
+}
+
+.a1 a {
+    color:black;
+    text-decoration: none;
+}
+
+footer img {
+    margin: 0 auto;
+    width:200px;
+    display:block;
+}
